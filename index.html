@@ -23,12 +23,12 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
+                <h1 class="title">VISUAL STUDIO 2017</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">Artículos</a></li>
+                        <li><a href="#">Descargas</a></li>
+                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
             </header>
@@ -39,26 +39,26 @@
 
                 <article>
                     <header>
-                        <h1>article header h1</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+                        <h1>ASP.NET</h1>
+                        <p>ASP.NET es una plataforma web que proporciona todos los servicios necesarios para compilar aplicaciones web empresariales basadas en servidor. ASP.NET está compilado en .NET Framework, por lo que todas las características de .NET Framework están disponibles en las aplicaciones ASP.NET. Las aplicaciones se pueden escribir en cualquier lenguaje que sea compatible con Common Language Runtime (CLR), incluido Visual Basic y C#.</p>
                     </header>
                     <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <h2>C#</h2>
+                        <p>C # es un lenguaje elegante y seguro orientado a objetos que permite a los desarrolladores crear una variedad de aplicaciones seguras y robustas que se ejecutan en .NET Framework. Puede usar C # para crear aplicaciones cliente de Windows, servicios web XML, componentes distribuidos, aplicaciones cliente-servidor, aplicaciones de bases de datos y mucho, mucho más. Visual C # proporciona un editor de código avanzado, diseñadores de interfaz de usuario convenientes, depurador integrado y muchas otras herramientas para facilitar el desarrollo de aplicaciones basadas en el lenguaje C # y .NET Framework.</p>
                     </section>
                     <section>
-                        <h2>article section h2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <h2>XAMARIN</h2>
+                        <p>Xamarin es una plataforma que puede ser usada con Visual Studio (2013 en adelante) para escribir aplicaciones móviles nativas para Android, iOS y Windows, y compartir código a través de múltiples plataformas, incluyendo Windows y macOS.</p>
                     </section>
                     <footer>
-                        <h3>article footer h3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
+                        <h3>Qué hay de nuevo en Visual Studio 2017?</h3>
+                        <p>Las nuevas características, como la validación arquitectónica en vivo, facilitan la dirección temprana de DevOps en el proceso de desarrollo. Además, las mejoras realizadas en características populares, como la navegación de código, IntelliSense, la refactorización y las correcciones de código, permiten ahorrar tiempo y esfuerzo independientemente del lenguaje o la plataforma.</p>
                     </footer>
                 </article>
 
                 <aside>
-                    <h3>aside</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+                    <h3>Lo más reciente</h3>
+                    <p>Llegó el día. Windows 10, la última actualización del sistema operativo de Microsoft, con la que el gigante informático busca mantener la relevancia en el mundo de los dispositivos móviles controlado por Apple y Google, ya llegó a los mercados de todo el mundo. Microsoft ofrecerá la actualización de forma gratuita con el objetivo, dice, de lograr 1.000 millones de usuarios en los próximos dos años.</p>
                 </aside>
 
             </div> <!-- #main -->
@@ -66,7 +66,20 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
+                <script> 
+					var mydate=new Date(); 
+					var year=mydate.getYear(); 
+					if (year < 1000) 
+						year+=1900; 
+					var day=mydate.getDay(); 
+					var month=mydate.getMonth()+1; 
+					if (month<10) 
+						month="0"+month; 
+					var daym=mydate.getDate(); 
+					if (daym<10) 
+						daym="0"+daym; 
+					document.write("<small><font color='000000' face='Arial'><b>"+daym+"/"+month+"/"+year+"</b></font></small>") 
+				</script> 
             </footer>
         </div>
 
